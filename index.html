@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>Chocolate Pizza</title>
+    <link href='https://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dancing+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="styles.css" type="text/css">
   </head>
   <body>
     <header>
       <nav id="navBar">
-        <section id="container">
-        <section id="delicious">
-          <img id="logoPic" src="images/logo.png" alt="" />
-          <section id="logotext">
-            <h3>Delicious</h3>
-            <p>THE BEST FOOD BLOG ON THE WEB</p>
-          </section>
-        </section>
+            <img id="logoPic" src="images/logo.png" alt="" />
+            <section id="logotext">
+              <h3>Delicious</h3>
+              <p>THE BEST FOOD BLOG ON THE WEB</p>
+            </section>
         <section id="sharing">
           <img src="images/fb-icon.png" alt="" />
           <img src="images/twit-icon.png" alt="" />
@@ -26,7 +26,6 @@
           <img src="images/rss-icon.png" alt="" />
           <img src="images/mail-icon.png" alt="" />
         </section>
-      </section>
       </nav>
       <p class="sectionBreak"></p>
     </header>
@@ -37,33 +36,32 @@
         <p>POSTED ON 15 DEC 2013/DESSERTS</p>
         </section>
         <section id='print'>
-        <img src="images/print-icon.png" alt="" />
-        <p>PRINT</p>
+        <img src="images/print-icon.png" alt="" /><p>PRINT</p>
         </section>
       </section>
       <img id='mainPic' src="images/choco-pizza.png" alt="" />
       <article class="paragraphs">
-        <p>For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
-        <p>Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
-        <p>Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding marscapone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
+        <p class="steps">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve all of the figs and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently until you have a chunky-jammy mixture. Add salt with one or two stirs, set aside and let cool completely.</p>
+        <p class="steps">Ice cream: In a small pot over medium heat, combine milk, and granulated sugar until sugar is completely dissolved and the milk is just barely lukewarm. Whisk in the egg yolks. Set mixture in the fridge and wait until the fig mixture is cooled.</p>
+        <p class="steps">Using an ice cream machine, pour liquids into the frozen basin and process according to manufacturer instructions, i.e., let spin and thicken for 20 minutes before adding marscapone, fig jam mixture, and the nuts. Continue to process for +/- 10 minutes. Pour semi-frozen mixture into a pyrex dish or glass tupperware. Freeze for at least two hours before serving.</p>
       </article>
       <article class="ingredients">
-        <ul id='list1'>
-          <li>1 1/2 cups milk</li>
-          <li>1/2 cup marscapone</li>
-          <li>1/2 tsp pink salt</li>
-          <li>1 lb Black Mission Figs</li>
-          <li>1/2 cup brown sugar</li>
-          <li>2-4 tbsp water</li>
-        </ul>
-        <ul id='list2'>
-          <li>1 1/2 cups heavy cream</li>
-          <li class="done">1/3 granulated sugar</li>
-          <li class="done">2 egg yolks</li>
-          <li>1 lemon, juiced</li>
-          <li>2 tbsp butter</li>
-          <li>1 cup honey roasted pecans, roughly chopped</li>
-        </ul>
+        <form id="list1" class="ingredList" action="index.html" method="post">
+          <input type="checkbox" name="name" value="">1 1/2 cups milk<br>
+          <input type="checkbox" name="name" value="">1/2 cup marscapone<br>
+          <input type="checkbox" name="name" value="">1/2 tsp pink salt<br>
+          <input type="checkbox" name="name" value="">1 lb Black Mission Figs<br>
+          <input type="checkbox" name="name" value="">1/2 cup brown sugar<br>
+          <input type="checkbox" name="name" value="">2-4 tbsp water<br>
+        </form>
+        <form id="list2" class="" action="index.html" method="post">
+          <input type="checkbox" name="name" value="">1 1/2 cups heavy cream<br>
+          <input type="checkbox" name="name" value="">1/3 granulated sugar<br>
+          <input type="checkbox" name="name" value="">2 egg yolks<br>
+          <input type="checkbox" name="name" value="">1 lemon, juiced<br>
+          <input type="checkbox" name="name" value="">2 tbsp butter<br>
+          <input type="checkbox" name="name" value="">1 cup honey roasted pecans, roughly chopped<br>
+        </form>
       </article>
       <p class="sectionBreak"></p>
       <article class="bio">
@@ -72,10 +70,10 @@
         <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
         <button id="shareRecipe" type="button" name="button">SHARE RECIPE</button>
       </article>
-      <section>
-        <p>line</p>
+      <section id="footerDiv">
+        <p class="line"></p>
         <img src="images/small-logo.png" alt="" />
-        <p>line</p>
+        <p class="line"></p>
       </section>
     </main>
     <footer>
