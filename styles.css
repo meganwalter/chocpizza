@@ -1,35 +1,57 @@
 body {
   font: Times ;
   font-size: 15px;
-
+  width:75%;
 }
-
+p, h1, h3 {
+  margin: 1px;
+}
+#container {
+  border: 2px solid purple;
+  display: flex;
+}
 #delicous {
-  text-align: left;
-  font: ;
-  font-size: ;
-  font-style: italic;
-  border: dashed;
-  width: 100px;
-  height: 100px;
-
+  float:left;
 }
-
-
-
+#logoPic {
+  float:left;
+}
 #sharing {
-  text-align: right;
-  width: 200px;
-  height:100px ;
   border: dashed;
-
-
+  justify-content: flex-end;
+  /*float: right;*/
+}
+#title {
+  display: flex;
+}
+#articleTitle {
+  border: dashed;
+}
+#print {
+  border: dashed;
+  display: flex;
+  height: 20px;
+}
+#mainPic {
+  clear: left;
+  width: 100%;
+}
+.ingredients{
+  background-image: url('images/list-bg.png');
+  display: flex;
+}
+.bio {
+  border: dashed;
+}
+#headshot {
+  float:left;
+}
+#shareRecipe {
+  float:right;
 }
 
 .sectionBreak {
   border: dashed;
-
-
 }
 
 .paragraphs {
